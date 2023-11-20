@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import {Header} from '../components/Header'
+import Header from "../components/Header";
 import {Footer} from '../components/Footer'
 type Product = {
   title: string;
@@ -28,9 +28,6 @@ const ProductPage = () => {
 
   return (
     <>
-    
-    
-   
     <Header/>
     
     <div className="dark:bg-gray-800 mt-10 flex flex-wrap gap-2">
